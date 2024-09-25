@@ -1,0 +1,124 @@
+clear
+blue='\033[34;1m'
+green='\033[32;1m'
+purple='\033[35;1m'
+cyan='\033[36;1m'
+red='\033[31;1m'
+white='\033[37;1m'
+yellow='\033[33;1m'
+sleep 1
+echo
+figlet -f shadow HIMALAGLE | lolcat
+echo $green "REMEMBER ABOUT THEM THEY ARE USELESS"
+echo
+echo $red "Yea That My Slogan"
+echo
+echo $blue "Menu"
+echo
+echo $cyan
+echo "1.Debian-OS             2.Void-Linux"
+echo
+echo $green
+echo "3.Ubuntu-OS             4.OpenSUSE"
+echo
+echo $blue
+echo "5.BackBox-Linux         6.Alpine-Linux"
+echo
+echo $cyan
+echo "7.Arch-Linux            8.Parrot-OS"
+echo
+echo
+echo "9.Kali-Linux            10.Fedora-OS"
+echo
+echo $white
+echo "11.Manjaro-Linux        12.Visit Owner"
+echo
+echo $yellow "Pilihlah Beberapa Menu Diatas Dan Jangan Salahgunakan Tools Ini!"
+echo
+read -p "Pilih Dude : " menu
+if [ "$menu" -eq 1 ]
+then
+clear
+echo $red
+figlet -f shadow DEBIAN-ROOT
+pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/A>
+fi
+if [ "$menu" -eq 2 ]
+then
+clear
+echo $green
+figlet -f VOID LINUX ROOT
+pkg install wget openssl-tool proot tar -y && hash -r && wget https://raw.githubusercontent.com/EXAL>
+fi
+if [ "$menu" -eq 3 ]
+then
+clear
+echo $white
+figlet -f shadow DEBIAN-ROOT
+pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/A>
+fi
+if [ "$menu" -eq 4 ]
+then
+clear
+echo $green
+figlet -f shadow OPENSUSE-ROOT
+pkg install wget openssl-tool proot tar -y && hash -r && wget https://raw.githubusercontent.com/EXAL>
+fi
+if [ "$menu" -eq 5 ]
+then
+clear
+echo $cyan
+figlet -f shadow BACKBOX-LINUX
+pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/A>
+fi
+if [ "$menu" -eq 6 ]
+then
+clear
+echo $blue
+figlet -f shadow ALPINE-LINUX
+pkg install wget openssl-tool proot tar -y && hash -r && wget https://raw.githubusercontent.com/EXAL>
+fi
+if [ "$menu" -eq 7 ]
+then
+clear
+echo $cyan
+figlet -f shadow ARCH-LINUX
+pkg install wget openssl-tool proot tar -y && hash -r && wget https://raw.githubusercontent.com/EXAL>
+fi
+if [ "$menu" = 12 ]
+then
+clear
+sleep 1
+figlet -f shadow "MADE BY HIMALAGLE" | lolcat
+echo "Visiting The Owner..."
+xdg-open "https://youtube.com/@himalagle-exc27?si=u0t68ELTsNsJckKR"
+fi
+if [ "$menu" -eq 8 ]
+then
+clear
+echo $cyan
+figlet -f shadow PARROT-OS
+pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/A>
+fi
+if [ "$menu" -eq 9 ]
+then
+clear
+echo $blue
+figlet -f shadow KALI-LINUX
+pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/A>
+fi
+if [ "$menu" -eq 10 ]
+then
+clear
+echo $blue
+figlet -f FEDORA
+pkg update -y && pkg install wget curl proot tar -y && wget https://raw.githubusercontent.com/Andron>
+fi
+
+if [ "$menu" -eq 11 ]
+then
+clear
+echo $cyan
+figlet -f shadow MANJARO-LINUX
+pkg update -y && pkg install wget curl proot tar -y && wget https://raw.githubusercontent.com/Andron>
+fi
